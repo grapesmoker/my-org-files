@@ -1,0 +1,15 @@
+* PROJECTS
+
+** QEMS2
+
+** cl-geom
+
+** build-system stuff
+
+** compilers?
+
+** visualization
+
+** graph-based knowledge
+
+
