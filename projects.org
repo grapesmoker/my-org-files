@@ -1,15 +1,52 @@
 * PROJECTS
 
 ** QEMS2
+*** TODO
+    - [ ] add navigation pills
+    - [ ] packet exporting
+    - [ ] test the order assignment mechanism
+    - [ ] fix the weirdness with tinymce
+    - [ ] provisional registration until approval by admin?
+    - [ ] packet locking by editors/owners
+    - [ ] ???
 
 ** cl-geom
+*** TODO minor fixes
+    - [ ] fix the with-valid-* macros so that they work properly when passed a list of things
+    - [ ] fix macro hygiene using gensyms
+    - [ ] implement lines, parametrically represented
+    - [ ] change the representation of line segments to parametric
+    - [ ] rewrite line algorithms in parametric terms
+    - [ ] change functions like v+ and p+ to accept &rest style params
+    - [ ] rewrite rotations and reflections in terms of proper quaternions
+    - [ ] port over all the polygon algorithms from constraint-solver
+*** TODO objects
+    - [ ] circles + various intersection algorithms
+    - [ ] parametric lines
+    - [ ] parametric curves
+    - [ ] parametric planes
+    - [ ] ???
+*** TODO algorithms
+    - [ ] polygon triangulation
+    - [ ] ???
 
 ** build-system stuff
+*** TODO [ ] getting started
+    - [ ] define build rules
+    - [ ] library discovery
 
-** compilers?
-
+** compilers
+   
 ** visualization
+*** TODO [ ] draw methods for objects
+    - [ ] implement opengl drawing methods for various primitives
+    - [ ] get cairo running with graph axes
 
 ** graph-based knowledge
+   - [ ] figure out backbone.js
 
+** basketball
+*** TODO
+    - [ ] implement classes for pbp, games, and players
+    - [ ] rewrite all calculations in class-based terms
 
